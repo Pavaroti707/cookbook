@@ -43,4 +43,4 @@ const ReciepeSchema = new mongoose.Schema({
   },
 });
 
-export default mongoose.model("Reciepe", ReciepeSchema);
+module.exports = mongoose.model("Reciepe", ReciepeSchema);

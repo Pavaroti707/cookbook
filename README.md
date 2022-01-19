@@ -17,6 +17,10 @@ MERN stack app (MongoDB, Express, React and NodeJS with Mongoose)
 
 - cd server && npm install && npm start
 
+### Seeding the DB!!!
+
+- cd server && npm run seed
+
 ### accounts for testing
 
 - USER 1:
