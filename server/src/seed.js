@@ -49,7 +49,7 @@ async function addingRecipe1() {
     {
       name: "Recipe1",
       description: "Recipe1",
-      author: "61e6d64a54a33545b476e579",
+      author: "61e94c8e54f22132ecc1c483",
       ingredients: "ima ima",
       instructions: "mozes ti to",
       category: "Brekfast",
@@ -65,7 +65,7 @@ async function addingRecipe2() {
     {
       name: "Recipe2",
       description: "Recipe2",
-      author: "61e6d64a54a33545b476e579",
+      author: "61e94c8e54f22132ecc1c483",
       ingredients: "ima ima",
       instructions: "mozes ti to",
       category: "Brekfast",
@@ -81,7 +81,7 @@ async function addingRecipe3() {
     {
       name: "Recipe3",
       description: "Recipe3",
-      author: "61e6d64a54a33545b476e579",
+      author: "61e94c8e54f22132ecc1c483",
       ingredients: "ima ima",
       instructions: "mozes ti to",
       category: "Brekfast",
@@ -97,7 +97,7 @@ async function addingRecipe4() {
     {
       name: "Recipe4",
       description: "Recipe4",
-      author: "61e6d64a54a33545b476e579",
+      author: "61e94c8e54f22132ecc1c485",
       ingredients: "ima ima",
       instructions: "mozes ti to",
       category: "Brekfast",
@@ -113,7 +113,7 @@ async function addingRecipe5() {
     {
       name: "Recipe5",
       description: "Recipe5",
-      author: "61e6d64a54a33545b476e579",
+      author: "61e94c8e54f22132ecc1c485",
       ingredients: "ima ima",
       instructions: "mozes ti to",
       category: "Brekfast",
