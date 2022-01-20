@@ -44,15 +44,15 @@ async function addingUser2() {
   );
 }
 
-async function addingRecipe1() {
+async function addingRecipeOne() {
   reciepeModel.create(
     {
-      name: "Recipe1",
-      description: "Recipe1",
-      author: "61e94c8e54f22132ecc1c483",
+      name: "Recipe 1",
+      description: "Recipe",
+      author: "61e6d64a54a33545b476e579",
       ingredients: "ima ima",
-      instructions: "mozes ti to",
       category: "Brekfast",
+      instructions: "mozes ti to",
     },
     function () {
       console.log("Recipe 1 Added");
@@ -60,12 +60,12 @@ async function addingRecipe1() {
   );
 }
 
-async function addingRecipe2() {
+async function addingRecipeTwo() {
   reciepeModel.create(
     {
       name: "Recipe2",
-      description: "Recipe2",
-      author: "61e94c8e54f22132ecc1c483",
+      description: "Recipe",
+      author: "61e6d64a54a33545b476e579",
       ingredients: "ima ima",
       instructions: "mozes ti to",
       category: "Brekfast",
@@ -76,12 +76,12 @@ async function addingRecipe2() {
   );
 }
 
-async function addingRecipe3() {
+async function addingRecipeThere() {
   reciepeModel.create(
     {
       name: "Recipe3",
-      description: "Recipe3",
-      author: "61e94c8e54f22132ecc1c483",
+      description: "Recipe",
+      author: "61e6d64a54a33545b476e579",
       ingredients: "ima ima",
       instructions: "mozes ti to",
       category: "Brekfast",
@@ -92,12 +92,12 @@ async function addingRecipe3() {
   );
 }
 
-async function addingRecipe4() {
+async function addingRecipeFour() {
   reciepeModel.create(
     {
       name: "Recipe4",
-      description: "Recipe4",
-      author: "61e94c8e54f22132ecc1c485",
+      description: "Recipe",
+      author: "61e6d64a54a33545b476e579",
       ingredients: "ima ima",
       instructions: "mozes ti to",
       category: "Brekfast",
@@ -108,12 +108,12 @@ async function addingRecipe4() {
   );
 }
 
-async function addingRecipe5() {
+async function addingRecipeFive() {
   reciepeModel.create(
     {
       name: "Recipe5",
-      description: "Recipe5",
-      author: "61e94c8e54f22132ecc1c485",
+      description: "Recipe",
+      author: "61e6d64a54a33545b476e579",
       ingredients: "ima ima",
       instructions: "mozes ti to",
       category: "Brekfast",
@@ -129,11 +129,11 @@ async function Adding() {
   setTimeout(async () => {
     const addUser1 = await addingUser1();
     const addUser2 = await addingUser2();
-    const addRecipe = await addingRecipe1();
-    const addRecipe2 = await addingRecipe2();
-    const addRecipe3 = await addingRecipe3();
-    const addRecipe4 = await addingRecipe4();
-    const addRecipe5 = await addingRecipe5();
+    const addRecipe = await addingRecipeOne();
+    const addRecipe2 = await addingRecipeTwo();
+    const addRecipe3 = await addingRecipeThere();
+    const addRecipe4 = await addingRecipeFour();
+    const addRecipe5 = await addingRecipeFive();
   }, 3000);
 }
 

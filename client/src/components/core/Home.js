@@ -71,7 +71,7 @@ export default function Home() {
       let temp = recipes;
       let newReciepe = [];
       for (let i = 0; i < temp.length; i++) {
-        if (temp[i].name.toLowerCase() === search.toLowerCase()) {
+        if (temp[i].name.toLowerCase().includes(search.toLowerCase())) {
           newReciepe.push(temp[i]);
         }
       }
